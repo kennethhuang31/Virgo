@@ -1,0 +1,13 @@
+# Cloud Build configuration for testing
+steps:
+  - name: gcr.io/cloud-builders/npm
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        echo "Install dependencies"
+        npm install
+        echo "Running tests"
+        npm test
+        echo "Running lint"
+        npm run lint

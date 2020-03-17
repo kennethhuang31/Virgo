@@ -1,0 +1,31 @@
+@import "styles/variables.scss";
+
+.form-radio {
+  width: 100%;
+
+  label {
+    margin-left: 0.5rem;
+    font-size: 18px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  input {
+    width: 22px;
+    height: 22px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &_error {
+  }
+}
+
+.error {
+  color: $danger;
+  text-align: right;
+}

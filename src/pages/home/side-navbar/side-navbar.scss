@@ -1,0 +1,17 @@
+@import "styles/index.scss";
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  color: $gray-lighter;
+
+  &-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &-content {
+    margin-top: 2rem;
+    text-align: left;
+  }
+}

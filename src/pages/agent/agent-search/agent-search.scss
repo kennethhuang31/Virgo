@@ -1,0 +1,53 @@
+@import "styles/variables.scss";
+
+.agent-search {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+
+  &-all {
+    font-size: 20px;
+    font-weight: bold;
+    color: $info;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-fields {
+    display: inherit;
+    flex-direction: inherit;
+    margin-left: 2rem;
+  }
+
+  &-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-right: 5px;
+
+    input {
+      width: 100%;
+      margin-left: 1rem;
+    }
+  }
+
+  &-advanced {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.search-button {
+  .btn {
+    font-size: 15px;
+  }
+}

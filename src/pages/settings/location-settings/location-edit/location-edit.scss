@@ -1,0 +1,20 @@
+@import "styles/variables.scss";
+
+.location {
+  width: 600px;
+
+  .modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: $info;
+  }
+
+  &-content {
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    input {
+      width: 400px;
+    }
+  }
+}

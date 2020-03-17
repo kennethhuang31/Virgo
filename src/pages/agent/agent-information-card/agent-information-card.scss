@@ -1,0 +1,36 @@
+.agent-info {
+  padding: 2px;
+
+  .bordered-content {
+    margin: 0;
+  }
+
+  &-header {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+
+    &-left {
+      &-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 200px;
+        align-items: center;
+
+        span {
+          margin-left: 5px;
+        }
+      }
+    }
+
+    &-right {
+      .btn {
+        font-size: 16px;
+      }
+    }
+
+    &-edit {
+      margin-top: 0;
+    }
+  }
+}

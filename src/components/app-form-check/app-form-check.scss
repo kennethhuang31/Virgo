@@ -1,0 +1,29 @@
+.form-check {
+  padding-left: 0;
+}
+
+.form-check-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.form-check-input {
+  width: 22px;
+  height: 22px;
+  margin-left: 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.form-check-label {
+  font-size: 1.8rem;
+  margin-left: 2.3rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

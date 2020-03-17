@@ -1,0 +1,14 @@
+.level-setting-modal {
+  width: 600px;
+
+  .modal-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &-create {
+    input {
+      width: 400px;
+    }
+  }
+}

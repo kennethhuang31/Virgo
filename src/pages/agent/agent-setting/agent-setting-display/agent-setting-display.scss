@@ -1,0 +1,50 @@
+@import "styles/variables.scss";
+
+.level-setting {
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  .bordered-content {
+    margin: 0;
+  }
+
+  h2 {
+    color: $info;
+    font-weight: bold;
+  }
+
+  &-list {
+    margin-top: 2rem;
+
+    &-item {
+      margin-bottom: 1rem;
+
+      &-label {
+        width: 200px;
+        margin-right: 1rem;
+
+        label {
+          font-weight: bold;
+          margin-right: 3px;
+        }
+      }
+    }
+  }
+
+  &-create {
+    justify-content: space-evenly;
+
+    .btn {
+      font-size: 16px;
+    }
+  }
+
+  &-form {
+    margin: 2rem;
+    width: 600px;
+
+    input {
+      width: 400px;
+    }
+  }
+}

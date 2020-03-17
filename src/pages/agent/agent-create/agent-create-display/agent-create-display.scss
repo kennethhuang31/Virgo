@@ -1,0 +1,27 @@
+@import "styles/variables.scss";
+
+.agent-create-form {
+  margin-bottom: 3rem;
+
+  &-section {
+    font-size: 18px;
+    font-weight: bold;
+    color: $info;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.create-button {
+  .btn {
+    font-size: 17px;
+    width: 200px;
+  }
+}
+
+.file-uploader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}

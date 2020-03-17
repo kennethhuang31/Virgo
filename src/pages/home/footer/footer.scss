@@ -1,0 +1,10 @@
+@import "styles/variables.scss";
+
+.footer {
+  padding: 2rem 2rem;
+  font-size: 1.35rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: $gray;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}

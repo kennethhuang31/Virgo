@@ -1,0 +1,27 @@
+@import "styles/variables.scss";
+
+.advanced-modal {
+  width: 600px;
+
+  .bordered-content {
+    margin: 0;
+  }
+
+  .modal-title {
+    color: $info;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  &-content {
+    &-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.advanced-filter {
+  margin-top: 1rem;
+}

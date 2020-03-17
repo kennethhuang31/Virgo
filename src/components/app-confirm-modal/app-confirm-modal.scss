@@ -1,0 +1,41 @@
+@import "styles/variables.scss";
+
+.confirm-modal {
+  .modal-body {
+    padding: 0;
+  }
+
+  .modal-footer {
+    justify-content: space-evenly;
+  }
+
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $warning;
+    color: $white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+  }
+
+  &-footer {
+    font-size: 17px;
+    font-weight: bold;
+
+    &-cancel {
+      &:hover {
+        cursor: pointer;
+        color: $info;
+      }
+    }
+
+    &-confirm {
+      &:hover {
+        cursor: pointer;
+        color: $info;
+      }
+    }
+  }
+}

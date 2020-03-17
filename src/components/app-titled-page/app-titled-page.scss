@@ -1,0 +1,13 @@
+@import "styles/index.scss";
+
+.titled-page {
+  width: 100%;
+
+  &-title {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: $black;
+    margin-bottom: 1rem;
+  }
+}

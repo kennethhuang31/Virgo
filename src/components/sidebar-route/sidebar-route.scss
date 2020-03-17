@@ -1,0 +1,42 @@
+// @import "styles/index.scss";
+
+.router {
+  flex: 1;
+  margin-left: -5rem;
+  margin-bottom: 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  span {
+    margin-left: 1.5rem;
+    font-size: 18px;
+  }
+
+  a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.subroute {
+  margin-left: -3.5rem;
+
+  li {
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

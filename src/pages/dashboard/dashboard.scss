@@ -1,0 +1,23 @@
+@import "styles/variables.scss";
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .dashboard-card {
+    width: 18rem;
+    border-radius: 1rem;
+
+    &_header {
+      cursor: pointer;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+
+      &:hover {
+        background-color: $primary;
+        color: $white;
+      }
+    }
+  }
+}

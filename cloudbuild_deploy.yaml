@@ -1,0 +1,23 @@
+# Cloud Build configuration for deployment
+steps:
+  # install
+  - name: gcr.io/cloud-builders/npm
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        echo "Install dependencies"
+        npm install
+        echo "Running tests"
+        npm test
+        echo "Running build"
+        npm run build
+        ls -l
+  # upload to bucket
+  - name: gcr.io/cloud-builders/gsutil
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        cd ./build
+        gsutil cp -r * ${_WEBSITE_BUCKET}

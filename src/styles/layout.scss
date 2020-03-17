@@ -1,0 +1,41 @@
+.app-layout {
+  display: flex;
+
+  &_vertical {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &_horizontal {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &_between {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_center {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+.button-group {
+  &_right {
+    button {
+      margin-left: 1rem;
+      font-size: 15px;
+    }
+  }
+
+  &_left {
+    button {
+      margin-right: 1rem;
+      font-size: 15px;
+    }
+  }
+}

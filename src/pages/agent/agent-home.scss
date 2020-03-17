@@ -1,0 +1,15 @@
+.agent {
+  &-list {
+    width: 850px;
+
+    &-children {
+      .btn {
+        font-size: 15px;
+      }
+
+      &-bank {
+        justify-content: flex-start;
+      }
+    }
+  }
+}

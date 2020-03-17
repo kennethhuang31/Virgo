@@ -1,0 +1,8 @@
+@import "styles/variables.scss";
+
+.app-spinner {
+  width: 9rem;
+  height: 12rem;
+  border: 0.35em solid $primary;
+  animation-duration: 1s;
+}

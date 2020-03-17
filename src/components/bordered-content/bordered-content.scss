@@ -1,0 +1,31 @@
+@import "styles/index.scss";
+
+.bordered-content {
+  width: 100%;
+  margin: 1rem;
+  padding: 5px;
+}
+
+.border {
+  border-color: $gray-dark;
+
+  &-all {
+    border: 2px solid !important;
+  }
+
+  &-up {
+    border-top: 2px solid !important;
+  }
+
+  &-down {
+    border-bottom: 2px solid !important;
+  }
+
+  &-left {
+    border-left: 2px solid !important;
+  }
+
+  &-right {
+    border-right: 2px solid !important;
+  }
+}

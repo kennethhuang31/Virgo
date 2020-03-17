@@ -1,0 +1,62 @@
+@import "styles/variables.scss";
+
+.locations {
+  margin: 1.5rem;
+
+  &-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &-title {
+      color: $info;
+      font-size: 22px;
+      font-weight: bold;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .btn {
+      font-size: 17px;
+    }
+  }
+
+  &-body {
+    margin-top: 1.5rem;
+
+    &-item {
+      width: 100%;
+      background-color: $white;
+      margin-bottom: 1.5rem;
+      height: 5rem;
+
+      &-name {
+        margin-left: 1rem;
+        width: 80%;
+
+        span {
+          margin-right: 1rem;
+        }
+      }
+
+      &-buttons {
+        display: inherit;
+        flex-direction: inherit;
+        padding-right: 2rem;
+
+        .btn {
+          font-size: 14px;
+          margin-left: 1rem;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+        border: 2px solid $gray-medium;
+      }
+    }
+  }
+}

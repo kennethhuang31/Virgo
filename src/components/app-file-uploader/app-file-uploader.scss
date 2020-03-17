@@ -1,0 +1,22 @@
+.uploader {
+  .btn {
+    font-size: 16px;
+  }
+
+  &-name {
+    margin-left: 0.5rem;
+  }
+
+  &-icon {
+    margin-left: 0.5rem;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.hidden-input {
+  display: none;
+}
